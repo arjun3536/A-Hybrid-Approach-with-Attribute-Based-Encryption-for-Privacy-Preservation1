@@ -1,0 +1,67 @@
+{% load static %}
+<html>
+    <head>
+       <title>Login Page</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+   </head>
+     <body>
+	 <table align="center" height="100%" width="100%" border="1">
+	        <tr><td  style="background-color:orange;" height="25%" align="center">
+                         <center>
+                       <font face="Times New Roman" color="black" size="+3">
+A Hybrid Approach With A.B.E. for Privacy Preservation of IIoT Data
+            </font>
+  </center>
+          </td></tr>
+	        <tr><td  style="background-color:brown;" height="5%">
+
+          </td></tr>
+	        <tr><td style="background-color:skyblue;" height="65%">
+    <center>
+             <font size="+2">
+                {% if msg  %}
+                    {{msg}}
+                {% endif  %}
+            </font>
+</center>
+<form name="frmreg" method="POST">
+<h3>Login</h3>
+    <table  align="center" border="1">
+<tr>
+  <td>
+      Usertype</td>
+      <td>
+          <select name="usertype" class="form-select">
+            <option value="1">Administrator</option>
+            <option value="2">Cloud Service Provider(C.S.P.)</option>
+            <option value="3">User</option>
+           </select>
+      </td>
+</tr>
+<tr>
+    <td>Mobile Number<font style="color:red">*</font></td>
+    <td><input class="form-control" type="number" maxlength="10" autocomplete="off" autofocus="on" pattern="[0-9]{10,10}" hint="Enter valid mobilenumber" name="txtmobilenumber" maxlenth="30" placeholder="Enter Mobile Number"></td>
+</tr>
+<tr>
+    <td>Password<font style="color:red">*</font></td>
+    <td><input class="form-control" type="password" name="txtpassword" maxlenth="20" placeholder="Enter Your Password"></td>
+</tr>
+<tr>
+    <td align="center" colspan="2">
+        <input class="btn btn-success" type="Submit" value="Submit">
+    <input class="btn btn-warning" type="reset" value="Cancel"></td></tr>
+   </table>
+  {% csrf_token %}
+</form>
+<br/><br/><br/><br/>
+   </td>
+ </tr>
+
+           <tr><td style="background-color:purple;"></td></tr>
+        </table>
+
+  </body>
+</html>
