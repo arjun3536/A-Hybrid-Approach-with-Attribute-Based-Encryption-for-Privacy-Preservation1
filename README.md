@@ -64,6 +64,22 @@ Other Files
 •	PROJECT.url: A URL shortcut for your project.
 •	server.bat: A batch file for starting the server on Windows.
 
+Technologies Used
+Languages & Frameworks: Python, HTML, Bootstrap, Django, Node.js
+Database: MySQL
+Algorithm: Caesar Cipher
+Encryption Method
+Combines attribute-based encryption with variable shifts for added security.
+
+Project Screenshots
 ![image](https://github.com/arjun3536/A-Hybrid-Approach-with-Attribute-Based-Encryption-for-Privacy-Preservation1/assets/153887720/2bf9a9a5-8606-49ba-a742-72cd096d83f0)
+![image](https://github.com/arjun3536/A-Hybrid-Approach-with-Attribute-Based-Encryption-for-Privacy-Preservation1/assets/153887720/14c118be-4294-43c1-910c-3af80fc74409)
+![image](https://github.com/arjun3536/A-Hybrid-Approach-with-Attribute-Based-Encryption-for-Privacy-Preservation1/assets/153887720/1e7e8b8b-9023-47e1-b71e-18e4365b423f)
+![image](https://github.com/arjun3536/A-Hybrid-Approach-with-Attribute-Based-Encryption-for-Privacy-Preservation1/assets/153887720/81533f0b-d4c2-4937-8d15-572d961bbb6e)
+![image](https://github.com/arjun3536/A-Hybrid-Approach-with-Attribute-Based-Encryption-for-Privacy-Preservation1/assets/153887720/a4b7841f-2fc2-4fdd-9d2a-3a237f74cb2f)
+
+
+
+
 
 
