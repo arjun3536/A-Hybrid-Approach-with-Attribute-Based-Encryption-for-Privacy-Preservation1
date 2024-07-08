@@ -64,4 +64,6 @@ Other Files
 •	PROJECT.url: A URL shortcut for your project.
 •	server.bat: A batch file for starting the server on Windows.
 
+![image](https://github.com/arjun3536/A-Hybrid-Approach-with-Attribute-Based-Encryption-for-Privacy-Preservation1/assets/153887720/2bf9a9a5-8606-49ba-a742-72cd096d83f0)
+
 
