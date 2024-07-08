@@ -1,4 +1,7 @@
-
+A Hybrid Approach with Attribute-Based Encryption for Privacy Preservation
+• Description: Hybrid Attribute-Based Encryption ensures enhanced data privacy by transforming messages into 
+unreadable text, reversible only by the key holder.
+• Technologies Used: Python, HTML, Bootstrap, Django, MySQL database, Caesar Cipher algorithm.
 
 Project Root
 •	HYBRIDAPPROACH: This is your main project directory containing the settings and configuration for your Django project.
